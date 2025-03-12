@@ -51,7 +51,7 @@ resource "aws_lb_target_group" "app_tg" {
 # Auto Scaling Group
 resource "aws_launch_template" "app_lt" {
   name_prefix   = "app-lt"
-  image_id      = "ami-0c55b159cbfafe1f0"
+  image_id      = "ami-09e143e99e8fa74f9"
   instance_type = "t2.micro"
 }
 
